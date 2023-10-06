@@ -4,7 +4,7 @@
 clear parameters params
 % Reading png images in the 'controlV' folder, performing 2x2 binning
 paramReading.extension = '.png';
-paramReading.binningFactor = 4;
+paramReading.binningFactor = 2;
 imStackV = COSMAS.readFolder('data/controlV', paramReading);
 
 % Setting parameters of processing
